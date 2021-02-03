@@ -8,3 +8,4 @@ void main()
     scanf("%s",&c);
     printf("%s is the name",c);
 }
+//no errors found
