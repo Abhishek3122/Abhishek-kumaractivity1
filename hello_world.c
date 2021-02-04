@@ -1,10 +1,11 @@
 //programme for taking the name and printing it
 #include<stdio.h>
-void main()
+int main()
 {
     char c[40];
     printf("Enter your name\n");
     scanf("%s",&c);
-    printf("%s is the name",c);
+    printf("%s is the name\n",c);
+    return 0;
 }
-//remove conio.h because its not needed
+//removal of conio.h because its not needed
