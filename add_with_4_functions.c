@@ -21,6 +21,6 @@ int main()
 int a=input1();
 int b=input2();
 int se=sum(a,b);
-printf("Sum of %d and %d is: %d\n",a,b,se);
+printf("Sum of %d and %d is:: %d\n",a,b,se);
 return 0;
 }
