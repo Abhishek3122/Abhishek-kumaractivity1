@@ -1,26 +1,31 @@
-//Write a program to add two user input numbers using 4 functions.
 #include<stdio.h>
-#include<conio.h>
-int input1()
-{ int no1;
-printf("Enter first number\n");
-scanf("%d",&no1);
-return no1;
+
+int inp()
+{
+	int x;
+	printf("Enter The Value : \n");
+	scanf("%d",&x);
+	return x;
 }
-int input2()
-{ int no2;
-printf("Enter second number\n");
-scanf("%d",&no2);
-return no2;
-}
+
 int sum(int a,int b)
-{ int s=a+b;
-return s;}
+{
+	return a+b;
+}
+
+void out(int x,int y,int z)
+{
+	printf("The Sum Of %d and %d is %d .",x,y,z);
+}
+
+
 int main()
 {
-int a=input1();
-int b=input2();
-int se=sum(a,b);
-printf("Sum of %d and %d is:: %d\n",a,b,se);
-return 0;
+	int a,b,c;
+	a=inp();
+	b=inp();
+	c=sum(a,b);
+	out(a,b,c);
+	return 0;
 }
+ 
