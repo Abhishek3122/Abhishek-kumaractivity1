@@ -3,11 +3,11 @@
 
 void inp(float *h,float *b,float *d)
 {
-	printf("Enter the value for  h :\n");
+	printf("Enter the value for  h ::\n");
 	scanf("%f",h);
-    	printf("Enter the value for  b :\n");
+    	printf("Enter the value for  b ::\n");
 	scanf("%f",b);
-    	printf("Enter the value for d :\n");
+    	printf("Enter the value for d ::\n");
 	scanf("%f",d);
 }
 
