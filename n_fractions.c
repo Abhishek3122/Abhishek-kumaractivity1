@@ -1,4 +1,4 @@
-//WAP to find the sum of n fractions.
+//WAP to find the sum of n fractions.//
 #include<stdio.h>
 int main()
 {
