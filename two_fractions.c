@@ -56,7 +56,6 @@ void oup(fract f1,fract f2,fract sum)
 int main()
 {   
 	fract f1,f2,s;
-	int g;
 	f1=inp();
 	f2=inp();
 	s=calc(f1,f2);
