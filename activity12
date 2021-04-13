@@ -1,3 +1,4 @@
+//act12
 #include<stdio.h>
 struct FRACTION
 {
